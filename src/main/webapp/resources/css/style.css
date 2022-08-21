@@ -1,0 +1,100 @@
+header > .row {
+    padding: 1% 4% 0% 4%;
+}
+
+.my-brand {
+    padding-right: 0px;
+}
+
+.my-logo-image {
+    width: 50px;
+    height: auto;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.my-brand-text {
+    min-width: 175px;
+    align-self: center;
+    display: inline;
+}
+
+.my-search-bar {
+    margin: 0px;
+    align-self: center;
+}
+
+.my-user-bar {
+    margin: 0px 5px 0px 0px;
+    align-self: center;
+}
+
+.my-user-bar-layout {
+    flex-direction: row-reverse;
+}
+
+.my-user-bar-layout > .btn {
+    margin: 0px 10px;
+}
+
+.navbar {
+    flex-direction: column;
+    padding-top: 0px;
+    margin-bottom: 2%;
+}
+
+.my-section-heading-layout {
+    margin-bottom: 1%;
+}
+.my-section-heading {
+    margin-bottom: 1%;
+}
+
+.my-product-img {
+    max-height: 250px;
+    max-width: auto;
+}
+
+.nav.flex-column > .nav-link {
+    color: var(--bs-success) !important;
+}
+
+.nav.nav-pills > .nav-item > .nav-link {
+    color: var(--bs-success) !important;
+}
+
+.nav.flex-column > .nav-link.active {
+    background-color: var(--bs-success) !important;
+    color: var(--bs-white) !important;
+}
+
+.nav.nav-pills > .nav-item > .nav-link.active {
+    background-color: var(--bs-success) !important;
+    color: var(--bs-white) !important;
+}
+
+.my-product-desc-title {
+    font-size: 5em !important;
+}
+
+.my-product-desc-seller-name {
+    font-size: 2em !important;
+    font-weight: bold;
+}
+
+/* .nav-item > .nav-link.active {
+    background-color: var(--bs-success) !important;
+    color: var(--bs-white) !important;
+}
+
+.nav.nav-pills > .nav-link.active {
+    background-color: var(--bs-success) !important;
+    color: var(--bs-white) !important;
+} */
+
+
+.my-footer-layout {
+    margin-top: 4%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
